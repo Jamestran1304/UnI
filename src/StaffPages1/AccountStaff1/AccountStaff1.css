@@ -1,0 +1,294 @@
+/* Navbar */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  width: 100%;
+  top: 0px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid red;
+}
+
+.edit-acc {
+  display: flex;
+  float:right
+}
+/* Accordion */
+.accordion {
+  margin: 15px;
+  margin-top: 50px;
+}
+  
+/* Profile */
+.form-profile {
+  margin: 50px 400px;
+  border: 3px solid green;
+  border-radius: 15px;
+  height: 200px;
+  width: 500px;
+  display: block;
+  text-align: center;
+}
+.form-profile h1{
+  margin-top: 10px;
+}
+.form-email {
+  padding: 15px 15px;
+  margin-right: 40px;
+}
+.input-email-profile {
+  padding: 10px 10px;
+  margin-left: 15px;
+}
+.input-phone-profile {
+  border: 1px solid green;
+  margin-top: 2px;
+}
+.btn-profile {
+  border-radius: 25px;
+  margin-top: 15px;
+  padding: 7px 35px 7px 35px;
+  background-color: green;
+  color: #f2f2f2;
+}
+.btn-profile:hover {
+  background-color: lightgreen;
+  padding: 8px 38px 8px 38px;
+  color: #333;
+}
+
+/* Email */
+.email-form {
+  border: 2px solid green;
+  border-radius: 25px;
+  width: 500px;
+  height: 280px;
+  margin: 50px 400px; 
+  display: block;
+  text-align: center;
+}
+.email-form h1 {
+  margin-top: 30px;
+  text-align: center;
+}
+.input-email-form {
+  margin-top: 15px;
+  border: 1px solid green;
+}
+.btn-alert {
+  padding: 2px 15px;
+  border: 1px solid black;
+  margin: 14px 14px;
+}
+.input-new-email {
+  border: 1px solid green;
+}
+.btn-changeemail {
+  padding: 7px 20px;
+  background-color:royalblue;
+  color: #f2f2f2;
+  margin: 20px 170px;
+  border-radius: 25px;
+}
+.btn-changeemail:hover {
+  padding: 7px 25px;  
+  background-color:dodgerblue;
+}
+
+/* Chang password */
+.form-changepassword {
+  display:block;
+  text-align: center;
+  margin: 50px 400px;
+  border: 3px solid green;
+  border-radius: 15px;
+  height: 300px;
+  width: 500px;
+}
+.form-changepassword h1 {
+  margin-top: 20px;
+  text-align: center;
+}
+.input-currentpassword {
+  margin-top: 7px;
+  border: 1px solid green;
+  border-radius: 12px;
+}
+.input-newpassword {
+  margin-top: 7px;
+  border: 1px solid green;
+  border-radius: 12px;
+}
+.input-confirm {
+  margin-top: 7px;
+  border: 1px solid green;
+  border-radius: 12px;
+}
+.btn-changepassword {
+  padding: 7px;
+  background-color: royalblue;
+  color: #f2f2f2;
+  margin: 20px 170px; 
+  border-radius: 25px;
+}
+.btn-changepassword:hover {
+  padding: 8px;
+  background-color: dodgerblue;
+}
+
+/* Two-Factor authentication */
+.btn-setupauthen {
+  padding: 7px 20px;
+  background-color:royalblue;
+  color: #f2f2f2;
+  margin: 20px;
+  border-radius: 25px;
+  float: left;
+}
+.btn-setupauthen .setuplink {
+  color: #f2f2f2;
+}
+.btn-setupauthen:hover {
+  background-color: dodgerblue;
+}
+.btn-resetauthen {
+  margin-left: 15px;
+  padding: 7px 20px;
+  background-color:royalblue;
+  color: #f2f2f2;
+  margin: 20px;
+  border-radius: 25px;
+  float: left;
+}
+.btn-resetauthen .resetlink {
+  color: #f2f2f2;
+}
+.btn-resetauthen:hover {
+  background-color: dodgerblue;
+}
+
+/* Enable Authenticator */
+.breadcurmb {
+  margin: 20px 20px;
+}
+.breadcurmb .breadcurmblink:hover {
+  color: red;
+}
+.bodycontent h1, p {
+  margin-left: 25px;
+}
+.contents {
+  margin-left: 30px;
+}
+.contents mark {
+  background-color: #333;
+  color: #f2f2f2;
+}
+.form-verify {
+  display:inline-flex;
+}
+.inputcode {
+  border: 1px solid green;
+  border-radius: 15px;
+  padding: 10px;
+  width: 350px;
+  float:left;
+  margin-left: 25px;
+}
+.btn-verify {
+  padding: 7px 50px;
+  margin-left: 20px;
+  background-color: royalblue;
+  color: #f2f2f2;
+  border-radius: 15px;
+  float: left;
+}
+.btn-verify:hover {
+  background-color: dodgerblue;
+}
+
+/* Reset Authenticator */
+.bodymain {
+  margin: 30px 50px;
+}
+.waring-alert {
+  margin: 20px 35px;
+}
+.btn-reset {
+  padding: 13px 57px;
+  background-color: red;
+  border-radius: 25px;
+}
+.btn-reset:hover {
+  background-color:#ff3333;
+}
+.btn-reset .reset-link {
+  color: #f2f2f2;
+}
+
+/* Personal Data */
+.confirm-data {
+  margin-top: 47px;
+}
+.btn-downloaddata {
+  padding: 7px 25px;
+  background-color: royalblue;
+  color: #f2f2f2;
+  border-radius: 25px;
+  margin: 0px 15px;
+}
+.btn-downloaddata:hover {
+  background-color: dodgerblue;
+}
+.btn-deletedata {
+  padding: 7px 25px;
+  background-color: red;
+  border-radius: 25px;
+  margin: 0px 15px;
+}
+.btn-deletedata:hover {
+  background-color: #ff3333;
+}
+.btn-deletedata .link-deletedata {
+  color: #f2f2f2;
+}
+
+/* Delete Personal Data */
+.body-personal {
+  margin: 25px;
+}
+.link-breadcrumdpersonal:hover {
+  color: red;
+}
+.input-deletepersonal {
+  padding: 10px;
+  width: 350px;
+  border: 1px solid green;
+  border-radius: 15px;
+  margin-right: 25px;
+}
+.btn-deletepersonal {
+  padding: 10px;
+  background-color: red;
+  border-radius: 25px;
+  color: #f2f2f2;
+}
+.btn-deletepersonal:hover {
+  background-color: #ff3333;
+}
+.form-deletepersonal {
+  margin: 25px;
+  float:left ;
+}

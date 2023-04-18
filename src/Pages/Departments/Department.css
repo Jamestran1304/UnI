@@ -1,0 +1,76 @@
+.department {
+    width: 100%;
+}
+
+.wrapper h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    background: #c589ed;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.name .deadline_2 .deadline_1 {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.icon-cate {
+    margin: 10px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.icon-cate span {
+    margin-left: 10px;
+}
+
+.input-page {
+    text-align: center;
+}
+
+.input {
+    padding: 20px;
+    width: 100%;
+
+}
+
+.btn button {
+    background-color: #0d6efd;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.input input {
+    background: #7d7979;
+    color: #fff;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+button.btn.btn-secondary {
+    background-color: #8f8c8c;
+    margin-bottom: 10px;
+    margin: 10px;
+
+}
+
+svg {
+    height: 25px;
+    width: 25px;
+}

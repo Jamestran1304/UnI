@@ -1,0 +1,54 @@
+form {
+    text-align: -webkit-center;
+}
+
+.mb-3 {
+    margin: 20px;
+    padding: 10px;
+    height: 250px;
+    width: 50%;
+    align-items: center;
+}
+
+.name {
+    margin-bottom: 20px;
+}
+
+.deadline_1 {
+    margin-bottom: 20px;
+}
+
+.deadline_2 {
+    margin-bottom: 20px;
+}
+
+input.form-control {
+    background: #7d7979;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+label {
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.btn {
+    text-align: center;
+}
+
+button.btn.btn-secondary {
+    background-color: #8f8c8c;
+    margin-bottom: 10px;
+}
+
+
+a.active {
+    background-color: none;
+    background: none;
+}
+
+input.form-control {
+    margin-right: 10px;
+}
